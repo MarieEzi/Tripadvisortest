@@ -228,11 +228,6 @@ box-sizing: border-box;
       line-height: 33px;
   }
 
-  .section6 div {
-      height: 294px;
-      width: 272px;
-  }
-
   .section6 h3 {
       height: 33px;
       width: 272px;
@@ -265,10 +260,14 @@ box-sizing: border-box;
       cursor: pointer;
   }
 
-
+h2~div{
+    display: flex;
+}
 .carousel{
     display: flex;
-    overflow-y: scroll;
+    height: 294px;
+    width: 272px;
+    overflow-y: scroll; 
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -281,10 +280,6 @@ box-sizing: border-box;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
-
-ul {
-    display: flex;
-  }
 
 li {
     display: flex;
